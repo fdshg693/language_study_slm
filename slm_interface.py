@@ -37,7 +37,7 @@ class Exercise:
 
     prompt: str
     options: Optional[List[str]] = None
-    answer: Any = None
+    answer: Optional[Any] = None
     metadata: Dict[str, Any] = field(default_factory=dict)
 
 
